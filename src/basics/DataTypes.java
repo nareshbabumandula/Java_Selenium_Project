@@ -25,6 +25,18 @@ public class DataTypes {
 		System.out.println("Long value of l is : " + l);
 		System.out.println("Byte value of j is : " + j);
 		System.out.println("Byte value of s is : " + s);
+		
+		System.out.println("Non Primitive data types");
+		String strText = "Hello world, this is core java";
+		System.out.println(strText.toUpperCase());
+		
+		//Array
+		int marks[] = {50, 80, 90, 30, 40};
+		System.out.println(marks[0]);
+		
+		for (int mark : marks) {
+			System.out.println(mark);
+		}
 	}
 
 }
