@@ -37,6 +37,18 @@ public class DataTypes {
 		for (int mark : marks) {
 			System.out.println(mark);
 		}
+		
+		//Casting - Converting one type of data to another type
+		
+		int a1 = 129;
+		byte b2 = (byte)a1; //storing a bigger datatype value into a smaller one - Narrowing
+		System.out.println(b2);
+		
+		byte b3 = 125;
+		int a4 = b3; //storing a smaller datatype value into a bigger one - Widening
+		System.out.println(a4);
+		
+		
 	}
 
 }
