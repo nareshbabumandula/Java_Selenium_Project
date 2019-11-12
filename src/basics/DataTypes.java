@@ -26,6 +26,7 @@ public class DataTypes {
 		System.out.println("Byte value of j is : " + j);
 		System.out.println("Byte value of s is : " + s);
 		System.out.println("Demo");
+		System.out.println("Test");
 		System.out.println("Non Primitive data types");
 		String strText = "Hello world, this is core java";
 		System.out.println(strText.toUpperCase());
