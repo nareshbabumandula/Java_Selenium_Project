@@ -18,4 +18,5 @@ public abstract class Theater {
 		System.out.println("Seating types are deluxe, general etc");
 	}
 
+	
 }
